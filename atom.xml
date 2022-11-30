@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>小包^Blog</title>
+  <title>二毛小站</title>
   
   <subtitle>小毛今天吃啥子？</subtitle>
   <link href="http://example.com/atom.xml" rel="self"/>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/posts/undefined.html"/>
-    <id>http://example.com/posts/undefined.html</id>
+    <link href="http://example.com/posts/4a17b156.html"/>
+    <id>http://example.com/posts/4a17b156.html</id>
     <published>2022-11-30T07:07:00.037Z</published>
     <updated>2022-11-30T07:07:00.038Z</updated>
     
