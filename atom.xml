@@ -3,11 +3,11 @@
   <title>二毛小站</title>
   
   <subtitle>小毛今天吃啥子？</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://744376173.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://744376173.github.io/"/>
   <updated>2022-11-30T08:40:43.297Z</updated>
-  <id>http://example.com/</id>
+  <id>https://744376173.github.io/</id>
   
   <author>
     <name>小包</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/posts/4a17b156.html"/>
-    <id>http://example.com/posts/4a17b156.html</id>
+    <link href="https://744376173.github.io/posts/4a17b156.html"/>
+    <id>https://744376173.github.io/posts/4a17b156.html</id>
     <published>2022-11-30T07:07:00.037Z</published>
     <updated>2022-11-30T08:40:43.297Z</updated>
     
