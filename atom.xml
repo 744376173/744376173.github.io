@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>二毛小站</title>
+  <title>二毛小站o(*￣▽￣*)ブ</title>
   
   <subtitle>小毛今天吃啥子？</subtitle>
   <link href="https://744376173.github.io/atom.xml" rel="self"/>
   
   <link href="https://744376173.github.io/"/>
-  <updated>2022-12-01T05:16:12.841Z</updated>
+  <updated>2022-12-01T06:07:07.146Z</updated>
   <id>https://744376173.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://744376173.github.io/posts/f77b3748.html"/>
     <id>https://744376173.github.io/posts/f77b3748.html</id>
     <published>2022-12-01T03:09:31.000Z</published>
-    <updated>2022-12-01T05:16:12.841Z</updated>
+    <updated>2022-12-01T06:07:07.146Z</updated>
     
     <content type="html"><![CDATA[<p>I’m Bwh.</p><p>I was born in 2002.</p>]]></content>
     
@@ -35,6 +35,8 @@
     
     
     
+    <category term="好东西" scheme="https://744376173.github.io/categories/%E5%A5%BD%E4%B8%9C%E8%A5%BF/"/>
+    
     
     <category term="个人简介" scheme="https://744376173.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%AE%80%E4%BB%8B/"/>
     
@@ -45,7 +47,7 @@
     <link href="https://744376173.github.io/posts/8466f646.html"/>
     <id>https://744376173.github.io/posts/8466f646.html</id>
     <published>2022-12-01T02:43:42.000Z</published>
-    <updated>2022-12-01T04:37:27.851Z</updated>
+    <updated>2022-12-01T06:06:14.606Z</updated>
     
     <content type="html"><![CDATA[<p>背景</p><p><a href="https://pic.imgdb.cn/item/638819ee16f2c2beb19f7400.jpg">https://pic.imgdb.cn/item/638819ee16f2c2beb19f7400.jpg</a></p><p><a href="https://pic.imgdb.cn/item/6388131d16f2c2beb196f383.jpg">https://pic.imgdb.cn/item/6388131d16f2c2beb196f383.jpg</a><br><a href="https://pic.imgdb.cn/item/6388131d16f2c2beb196f388.jpg">https://pic.imgdb.cn/item/6388131d16f2c2beb196f388.jpg</a><br><a href="https://pic.imgdb.cn/item/6388131d16f2c2beb196f38e.jpg">https://pic.imgdb.cn/item/6388131d16f2c2beb196f38e.jpg</a><br><a href="https://pic.imgdb.cn/item/6388131d16f2c2beb196f396.png">https://pic.imgdb.cn/item/6388131d16f2c2beb196f396.png</a><br><a href="https://pic.imgdb.cn/item/6388131d16f2c2beb196f39f.jpg">https://pic.imgdb.cn/item/6388131d16f2c2beb196f39f.jpg</a><br><a href="https://pic.imgdb.cn/item/6388146a16f2c2beb1987ed3.jpg">https://pic.imgdb.cn/item/6388146a16f2c2beb1987ed3.jpg</a></p><p>头像<br><a href="https://pic.imgdb.cn/item/6388147816f2c2beb1988c04.jpg">https://pic.imgdb.cn/item/6388147816f2c2beb1988c04.jpg</a><br><a href="https://pic.imgdb.cn/item/6388149216f2c2beb198a524.jpg">https://pic.imgdb.cn/item/6388149216f2c2beb198a524.jpg</a><br><a href="https://pic.imgdb.cn/item/6388149216f2c2beb198a529.jpg">https://pic.imgdb.cn/item/6388149216f2c2beb198a529.jpg</a><br><a href="https://pic.imgdb.cn/item/6388149216f2c2beb198a52d.jpg">https://pic.imgdb.cn/item/6388149216f2c2beb198a52d.jpg</a><br><a href="https://pic.imgdb.cn/item/6388149216f2c2beb198a533.png">https://pic.imgdb.cn/item/6388149216f2c2beb198a533.png</a><br><a href="https://pic.imgdb.cn/item/6388149216f2c2beb198a53c.jpg">https://pic.imgdb.cn/item/6388149216f2c2beb198a53c.jpg</a><br><a href="https://pic.imgdb.cn/item/638814a116f2c2beb198b509.jpg">https://pic.imgdb.cn/item/638814a116f2c2beb198b509.jpg</a></p>]]></content>
     
@@ -57,6 +59,8 @@
       
     
     
+    
+    <category term="good" scheme="https://744376173.github.io/categories/good/"/>
     
     
     <category term="资源" scheme="https://744376173.github.io/tags/%E8%B5%84%E6%BA%90/"/>
