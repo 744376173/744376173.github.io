@@ -593,7 +593,7 @@ li.card-archive-list-item {
   }
 }
 /* 侧边栏个人卡片渐变色 */
-#aside-content > .card-widget.card-info {
+/* #aside-content > .card-widget.card-info {
   background: linear-gradient(
     -45deg,
     var(--anzhiyu-main),
@@ -610,4 +610,4 @@ li.card-archive-list-item {
 .site-data > a .headline,
 .site-data > a .length-num {
   color: var(--anzhiyu-white);
-}
+} */
