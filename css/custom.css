@@ -34,12 +34,12 @@ h1.post-title {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* 时间轴生肖icon */
+/* 时间轴生肖icon
 svg.icon {
-  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
+  这里定义svg.icon，避免和Butterfly自带的note标签冲突
   width: 1em;
   height: 1em;
-  /* width和height定义图标的默认宽度和高度*/
+  width和height定义图标的默认宽度和高度
   vertical-align: -0.15em;
   fill: currentColor;
   overflow: hidden;
@@ -47,7 +47,7 @@ svg.icon {
 
 .icon-zhongbiao::before {
   color: #f7c768;
-}
+} */
 
 /* bilibli番剧插件 */
 #article-container .bangumi-tab.bangumi-active {
