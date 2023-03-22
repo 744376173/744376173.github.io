@@ -6,7 +6,7 @@
   <link href="https://744376173.github.io/atom.xml" rel="self"/>
   
   <link href="https://744376173.github.io/"/>
-  <updated>2023-03-21T11:30:39.879Z</updated>
+  <updated>2023-03-22T02:49:24.587Z</updated>
   <id>https://744376173.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://744376173.github.io/posts/ea1d.html"/>
     <id>https://744376173.github.io/posts/ea1d.html</id>
     <published>2023-02-01T03:09:31.000Z</published>
-    <updated>2023-03-21T11:30:39.879Z</updated>
+    <updated>2023-03-22T02:49:24.587Z</updated>
     
     <content type="html"><![CDATA[<p>专升本数学</p>]]></content>
     
@@ -46,7 +46,7 @@
     <link href="https://744376173.github.io/posts/94b4.html"/>
     <id>https://744376173.github.io/posts/94b4.html</id>
     <published>2023-02-01T03:09:31.000Z</published>
-    <updated>2023-03-21T11:30:39.879Z</updated>
+    <updated>2023-03-22T02:49:24.587Z</updated>
     
     <content type="html"><![CDATA[<p>专升本英语</p>]]></content>
     
@@ -71,7 +71,7 @@
     <link href="https://744376173.github.io/posts/e010aab7.html"/>
     <id>https://744376173.github.io/posts/e010aab7.html</id>
     <published>2022-12-01T03:09:31.000Z</published>
-    <updated>2023-03-21T11:30:39.879Z</updated>
+    <updated>2023-03-22T02:49:24.587Z</updated>
     
     <content type="html"><![CDATA[<h1 id="Vue"><a href="#Vue" class="headerlink" title="Vue"></a>Vue</h1><p>Vue 其实包含很多 vue 的扩展插件,比如 以下:</p><p> vue-cli: vue脚手架</p><p> vue-router: 路由</p><p> vuex: 状态管理</p><p> vue-scroller: 页面滑动相关</p><p> mint-ui: 基于vue的组件库(移动端)</p><p> element-ui: 基于vue的组件库(PC端)</p><h2 id="Vue-介绍"><a href="#Vue-介绍" class="headerlink" title="Vue 介绍"></a>Vue 介绍</h2><p><strong>Vue 是一个渐进式 MVVM 框架</strong>，只关注视图层（view），用来构建 Web 应用界面。所谓渐进式，即我们需要哪些功能就使用框架的哪些模块即可，vue 这样处理使其减少侵入性。</p><p>‣1. 声明式渲染</p><p>  Vue 的核心库提供了数据渲染功能（vue 模板引擎），实现视图与数据解耦。</p><p>‣2. 组件系统</p><p>  对界面进行组件化</p><p>‣3. 前端路由</p><p>  可以用来制作移动端单页面应用</p><p>‣4. 状态管理</p><p>  对共享数据进行管理</p><h2 id="vue-与-JavaScript对比"><a href="#vue-与-JavaScript对比" class="headerlink" title="vue 与 JavaScript对比"></a>vue 与 JavaScript对比</h2><h3 id="DOM-操作"><a href="#DOM-操作" class="headerlink" title="DOM 操作"></a>DOM 操作</h3><p>  原生 JS 如果要操作 UI，需要频繁操作 DOM，效率较低</p><p> Vue 框架内部 实现了虚拟 DOM，在界面需要更新时，Vue 会在虚拟 DOM 中比较渲染前后的差异，决定最优更新哪些 DOM，由于虚拟 DOM 是内存数据，对实际 DOM 操作的仅仅是 Diff 部分，因而提高了性能。</p><p> <strong>虚拟 DOM 上绑定的属性极少，更加轻量（因为只有框架自己使用</strong></p><h3 id="组件化"><a href="#组件化" class="headerlink" title="组件化"></a>组件化</h3><p>原生 JS 组件化方案支持度不足，Vue 有完善的组件化支持（声明式）</p><p>‣第一种：传统引入方法，下载vue.js文件，并在页面中引入。</p><p>‣第二种：使用vue-cli安装导入使用。</p><p><img src="assets/Vue/image-20221203112552842.png" alt="image-20221203112552842"></p><h2 id="基本使用"><a href="#基本使用" class="headerlink" title="基本使用"></a>基本使用</h2><h3 id="vue2使用"><a href="#vue2使用" class="headerlink" title="vue2使用"></a>vue2使用</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><p><code>&#123;&#123;&#125;&#125; 大胡子语法</code></p><p>第一种Vue写法</p><p>html洗发</p><p><img src="assets/Vue/image-20221203114031261.png" alt="image-20221203114031261"></p><p>第二种写法</p><p><img src="assets/Vue/image-20221203114539515.png" alt="image-20221203114539515"></p><p>我们可以看一看logvm</p><p>这是一个vm的实例</p><p><img src="assets/Vue/image-20221203114651240.png" alt="image-20221203114651240"></p><h3 id="vue3使用"><a href="#vue3使用" class="headerlink" title="vue3使用"></a>vue3使用</h3><p>引入vue.js</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=&quot;https://unpkg.com/vue@3/dist/vue.global.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><p>html写法</p><p><img src="assets/Vue/image-20221203115900172.png" alt="image-20221203115900172"></p><p>可以在data函数返回的对象里面使用计算属性</p><p>于vue2的的区别 不需要再mount前面添加$符号了</p><h4 id="数组取值"><a href="#数组取值" class="headerlink" title="数组取值"></a>数组取值</h4><p>使用下标取值</p><p><img src="assets/Vue/image-20221203120746511.png" alt="image-20221203120746511"></p><h4 id="对象取值"><a href="#对象取值" class="headerlink" title="对象取值"></a>对象取值</h4><p>使用对象加item   即obj.item</p><p><img src="assets/Vue/image-20221203121149996.png" alt="image-20221203121149996"></p><p><strong>注意： null 和 undefined 会不显示</strong></p><p><img src="assets/Vue/image-20221203121316886.png" alt="image-20221203121316886"></p><h3 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h3><p>使用v-model可以进行双向绑定</p><p><img src="assets/Vue/image-20221203122102619.png" alt="image-20221203122102619"></p><h3 id="MVVM原理图"><a href="#MVVM原理图" class="headerlink" title="MVVM原理图"></a>MVVM原理图</h3><p><img src="assets/Vue/image-20221203122744140.png" alt="image-20221203122744140"></p><p>‣Model（数据）：数据可能是我们data中的固定数据，更多的是来自我们服务器，从网络上请求下来的数据。</p><p>‣View（视图）：vue模板,在我们前端开发中，通常就是DOM层。主要的作用是给用户展示各种信息。</p><p>‣ViewModel（视图模型）：Vue实例,视图模型层是View和Model沟通的桥梁。</p><h4 id="vue2响应式"><a href="#vue2响应式" class="headerlink" title="vue2响应式"></a>vue2响应式</h4><p>  对象类型：通过<code>Object.defineProperty()</code>对属性的读取、修改进行拦截（数据劫持）。</p><p>  数组类型：通过重写更新数组的一系列方法来实现拦截。（对数组的变更方法进行了包裹）。</p><p>详情参考这两张图</p><p><img src="assets/Vue/image-20221203122550343.png" alt="image-20221203122550343"></p><p><img src="assets/Vue/image-20221203122553006.png" alt="image-20221203122553006"></p><h4 id="vue3响应式"><a href="#vue3响应式" class="headerlink" title="vue3响应式"></a>vue3响应式</h4><p> 实现原理</p><p>  通过 Proxy（代理）: 拦截对象中任意属性的变化, 包括：属性值的读写、属性的添加、属性的删除等。</p><p>  通过 Reflect（反射）: 对源对象的属性进行操作</p><p><img src="assets/Vue/image-20221203122728481.png" alt="image-20221203122728481"></p><p><img src="assets/Vue/image-20221203122905130.png" alt="image-20221203122905130"></p>]]></content>
     
@@ -97,16 +97,15 @@
     <link href="https://744376173.github.io/posts/f77b3748.html"/>
     <id>https://744376173.github.io/posts/f77b3748.html</id>
     <published>2022-12-01T03:09:31.000Z</published>
-    <updated>2023-03-21T11:30:39.879Z</updated>
+    <updated>2023-03-22T02:49:24.587Z</updated>
     
-    <content type="html"><![CDATA[<p>我叫包伟宏</p><p>专升本ing 、考驾照ing、摆烂ing</p>]]></content>
+    <content type="html"><![CDATA[<p>我叫包伟宏</p><h4 id="键盘上撒一把米，鸡都比我敲得好！"><a href="#键盘上撒一把米，鸡都比我敲得好！" class="headerlink" title="键盘上撒一把米，鸡都比我敲得好！"></a>键盘上撒一把米，鸡都比我敲得好！</h4>]]></content>
     
     
       
       
     <summary type="html">&lt;p&gt;我叫包伟宏&lt;/p&gt;
-&lt;p&gt;专升本ing 、考驾照ing、摆烂ing&lt;/p&gt;
-</summary>
+&lt;h4 id=&quot;键盘上撒一把米，鸡都比我敲得好！&quot;&gt;&lt;a href=&quot;#键盘上撒一把米，鸡都比我敲得好！&quot; class=&quot;headerlink&quot; title=&quot;键盘上撒一把米，鸡都比我敲得好！&quot;&gt;&lt;/a&gt;键盘上撒一把米，鸡都比我敲得好！&lt;/h4&gt;</summary>
       
     
     
@@ -123,7 +122,7 @@
     <link href="https://744376173.github.io/posts/8466f646123.html"/>
     <id>https://744376173.github.io/posts/8466f646123.html</id>
     <published>2022-12-01T02:43:42.000Z</published>
-    <updated>2023-03-21T11:30:39.879Z</updated>
+    <updated>2023-03-22T02:49:24.587Z</updated>
     
     <content type="html"><![CDATA[<p>背景</p><p><a href="https://pic.imgdb.cn/item/638819ee16f2c2beb19f7400.jpg">https://pic.imgdb.cn/item/638819ee16f2c2beb19f7400.jpg</a></p><p><a href="https://pic.imgdb.cn/item/6388131d16f2c2beb196f383.jpg">https://pic.imgdb.cn/item/6388131d16f2c2beb196f383.jpg</a><br><a href="https://pic.imgdb.cn/item/6388131d16f2c2beb196f388.jpg">https://pic.imgdb.cn/item/6388131d16f2c2beb196f388.jpg</a><br><a href="https://pic.imgdb.cn/item/6388131d16f2c2beb196f38e.jpg">https://pic.imgdb.cn/item/6388131d16f2c2beb196f38e.jpg</a><br><a href="https://pic.imgdb.cn/item/6388131d16f2c2beb196f396.png">https://pic.imgdb.cn/item/6388131d16f2c2beb196f396.png</a><br><a href="https://pic.imgdb.cn/item/6388131d16f2c2beb196f39f.jpg">https://pic.imgdb.cn/item/6388131d16f2c2beb196f39f.jpg</a><br><a href="https://pic.imgdb.cn/item/6388146a16f2c2beb1987ed3.jpg">https://pic.imgdb.cn/item/6388146a16f2c2beb1987ed3.jpg</a></p><p>头像<br><a href="https://pic.imgdb.cn/item/6388149216f2c2beb198a524.jpg">https://pic.imgdb.cn/item/6388149216f2c2beb198a524.jpg</a><br><a href="https://pic.imgdb.cn/item/6388149216f2c2beb198a529.jpg">https://pic.imgdb.cn/item/6388149216f2c2beb198a529.jpg</a><br><a href="https://pic.imgdb.cn/item/6388149216f2c2beb198a52d.jpg">https://pic.imgdb.cn/item/6388149216f2c2beb198a52d.jpg</a><br><a href="https://pic.imgdb.cn/item/6388149216f2c2beb198a533.png">https://pic.imgdb.cn/item/6388149216f2c2beb198a533.png</a><br><a href="https://pic.imgdb.cn/item/6388149216f2c2beb198a53c.jpg">https://pic.imgdb.cn/item/6388149216f2c2beb198a53c.jpg</a><br><a href="https://pic.imgdb.cn/item/638814a116f2c2beb198b509.jpg">https://pic.imgdb.cn/item/638814a116f2c2beb198b509.jpg</a></p>]]></content>
     
@@ -148,7 +147,7 @@
     <link href="https://744376173.github.io/posts/e18c7558.html"/>
     <id>https://744376173.github.io/posts/e18c7558.html</id>
     <published>2022-11-30T11:39:55.000Z</published>
-    <updated>2023-03-21T11:30:39.879Z</updated>
+    <updated>2023-03-22T02:49:24.587Z</updated>
     
     <content type="html"><![CDATA[<p>李二毛今天吃了麻辣烫</p>]]></content>
     
