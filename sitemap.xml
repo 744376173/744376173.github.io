@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://744376173.github.io/music/index.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://744376173.github.io/posts/e010aab7.html</loc>
+    
+    <lastmod>2023-03-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://744376173.github.io/posts/2b27.html</loc>
     
     <lastmod>2023-03-22</lastmod>
     
@@ -64,15 +82,6 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://744376173.github.io/music/index.html</loc>
-    
-    <lastmod>2023-03-22</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://744376173.github.io/</loc>
@@ -84,6 +93,13 @@
   
   <url>
     <loc>https://744376173.github.io/tags/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://744376173.github.io/tags/hexo/</loc>
     <lastmod>2023-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -128,6 +144,13 @@
   
   <url>
     <loc>https://744376173.github.io/categories/%E5%89%8D%E7%AB%AF%E6%88%90%E9%95%BF%E5%8E%86%E7%A8%8B/</loc>
+    <lastmod>2023-03-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://744376173.github.io/categories/hexo/</loc>
     <lastmod>2023-03-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>hexo基础使用</title>
+      <link href="/posts/2b27.html"/>
+      <url>/posts/2b27.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br></pre></td></tr></table></figure><p>layout 是文章的布局，默认为post，可以先不写。<br>title 是文章的标题，也是文件的名字，存储在source/_posts下。<br>创建文章</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost blog]# hexo new &quot;如何在hexo上创建一篇文章&quot;</span><br><span class="line">...</span><br><span class="line">INFO  Created: /blog/source/_posts/如何在hexo上创建一篇文章.md</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>这样就在<a href="https://so.csdn.net/so/search?q=hexo&amp;spm=1001.2101.3001.7020">hexo</a>中创建了一篇名为”如何在hexo上创建一篇文章”的文章了<br>在MarkDown编辑器上打开就可以编辑了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>专升本数学</title>
       <link href="/posts/ea1d.html"/>
       <url>/posts/ea1d.html</url>
