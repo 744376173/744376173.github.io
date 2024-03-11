@@ -133,7 +133,7 @@
       <link href="/posts/f77b3748.html"/>
       <url>/posts/f77b3748.html</url>
       
-        <content type="html"><![CDATA[<p>我叫包伟宏</p><h4 id="键盘上撒一把米，鸡都比我敲得好！"><a href="#键盘上撒一把米，鸡都比我敲得好！" class="headerlink" title="键盘上撒一把米，鸡都比我敲得好！"></a>键盘上撒一把米，鸡都比我敲得好！</h4><p><img src="../images/image-20240311194959883.png" alt="image-20240311194959883"></p>]]></content>
+        <content type="html"><![CDATA[<p>我叫包伟宏</p><h4 id="键盘上撒一把米，鸡都比我敲得好！"><a href="#键盘上撒一把米，鸡都比我敲得好！" class="headerlink" title="键盘上撒一把米，鸡都比我敲得好！"></a>键盘上撒一把米，鸡都比我敲得好！</h4><p><img src="../images/image-20240311194959883.png" alt="image-20240311194959883"></p><p>test_img</p>]]></content>
       
       
       <categories>
@@ -252,10 +252,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/title.js"/>
-      <url>/js/title.js</url>
+      <link href="/js/anzhiyu.js"/>
+      <url>/js/anzhiyu.js</url>
       
-        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener("visibilitychange", function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = "w(ﾟДﾟ)w 不要走！再看看嘛！";    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = "♪(^∇^*)欢迎肥来！" + OriginTitile;    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
+        <content type="html"><![CDATA[var anzhiyu = {  // 音乐节目切换背景  changeMusicBg: function (isChangeBg = true) {    if (window.location.pathname != "/music/") {      return;    }    const anMusicBg = document.getElementById("an_music_bg");    if (isChangeBg) {      // player listswitch 会进入此处      const musiccover = document.querySelector("#anMusic-page .aplayer-pic");      anMusicBg.style.backgroundImage = musiccover.style.backgroundImage;    } else {      // 第一次进入，绑定事件，改背景      let timer = setInterval(() => {        const musiccover = document.querySelector("#anMusic-page .aplayer-pic");        // 确保player加载完成        console.info(anMusicBg);        if (musiccover) {          clearInterval(timer);          anMusicBg.style.backgroundImage = musiccover.style.backgroundImage;          // 绑定事件          anzhiyu.addEventListenerChangeMusicBg();          // 暂停nav的音乐          if (            document.querySelector("#nav-music meting-js").aplayer &&            !document.querySelector("#nav-music meting-js").aplayer.audio.paused          ) {            anzhiyu.musicToggle();          }        }      }, 100);    }  },  addEventListenerChangeMusicBg: function () {    const anMusicPage = document.getElementById("anMusic-page");    const aplayerIconMenu = anMusicPage.querySelector(      ".aplayer-info .aplayer-time .aplayer-icon-menu"    );    anMusicPage      .querySelector("meting-js")      .aplayer.on("loadeddata", function () {        anzhiyu.changeMusicBg();        console.info("player loadeddata");      });    aplayerIconMenu.addEventListener("click", function () {      document.getElementById("menu-mask").style.display = "block";      document.getElementById("menu-mask").style.animation =        "0.5s ease 0s 1 normal none running to_show";    });    document.getElementById("menu-mask").addEventListener("click", function () {      if (window.location.pathname != "/music/") return;      anMusicPage        .querySelector(".aplayer-list")        .classList.remove("aplayer-list-hide");    });  },};// 调用anzhiyu.changeMusicBg(false);]]></content>
       
     </entry>
     
@@ -263,10 +263,10 @@
     
     <entry>
       <title></title>
-      <link href="/js/anzhiyu.js"/>
-      <url>/js/anzhiyu.js</url>
+      <link href="/js/title.js"/>
+      <url>/js/title.js</url>
       
-        <content type="html"><![CDATA[var anzhiyu = {  // 音乐节目切换背景  changeMusicBg: function (isChangeBg = true) {    if (window.location.pathname != "/music/") {      return;    }    const anMusicBg = document.getElementById("an_music_bg");    if (isChangeBg) {      // player listswitch 会进入此处      const musiccover = document.querySelector("#anMusic-page .aplayer-pic");      anMusicBg.style.backgroundImage = musiccover.style.backgroundImage;    } else {      // 第一次进入，绑定事件，改背景      let timer = setInterval(() => {        const musiccover = document.querySelector("#anMusic-page .aplayer-pic");        // 确保player加载完成        console.info(anMusicBg);        if (musiccover) {          clearInterval(timer);          anMusicBg.style.backgroundImage = musiccover.style.backgroundImage;          // 绑定事件          anzhiyu.addEventListenerChangeMusicBg();          // 暂停nav的音乐          if (            document.querySelector("#nav-music meting-js").aplayer &&            !document.querySelector("#nav-music meting-js").aplayer.audio.paused          ) {            anzhiyu.musicToggle();          }        }      }, 100);    }  },  addEventListenerChangeMusicBg: function () {    const anMusicPage = document.getElementById("anMusic-page");    const aplayerIconMenu = anMusicPage.querySelector(      ".aplayer-info .aplayer-time .aplayer-icon-menu"    );    anMusicPage      .querySelector("meting-js")      .aplayer.on("loadeddata", function () {        anzhiyu.changeMusicBg();        console.info("player loadeddata");      });    aplayerIconMenu.addEventListener("click", function () {      document.getElementById("menu-mask").style.display = "block";      document.getElementById("menu-mask").style.animation =        "0.5s ease 0s 1 normal none running to_show";    });    document.getElementById("menu-mask").addEventListener("click", function () {      if (window.location.pathname != "/music/") return;      anMusicPage        .querySelector(".aplayer-list")        .classList.remove("aplayer-list-hide");    });  },};// 调用anzhiyu.changeMusicBg(false);]]></content>
+        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener("visibilitychange", function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = "w(ﾟДﾟ)w 不要走！再看看嘛！";    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = "♪(^∇^*)欢迎肥来！" + OriginTitile;    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
       
     </entry>
     
